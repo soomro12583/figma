@@ -1,0 +1,137 @@
+*{
+    color: #fff;
+    margin: 0%;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 110px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    border: 2px solid black;
+}
+
+.oteri{
+    display: flex;
+}
+
+.content{
+    width: 123px;
+    height: 51px;
+    flex-shrink: 0;
+    color: #75BF7A;
+font-family: ITC Avant Garde Gothic Pro;
+font-size: 65.257px;
+font-style: normal;
+font-weight: 500;
+line-height: 68px; /* 104.204% */
+}
+
+.nav-list{
+    display: flex;
+    /*border: 2px solid #000;*/
+    width: 50%;
+    justify-content:end;    
+}
+
+.nav-list ul li{
+    float: left;
+    margin: 10px;
+}
+.nav-list .home{
+    color: black;
+    align-content: end; 
+}
+
+
+.second-row{
+    display: flex;
+    background-color: #f7f5fe;
+    width: 100%;
+    justify-content: space-around;
+}
+.btn-btn{
+width: 182px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 5.952px;
+background: #75BF7A;
+}
+
+.div-left{
+    /*display: flex;*/
+    width: 45%;
+    border: 2px solid black;
+}
+
+
+.div-right{
+    /*display: flex;*/
+    width: 45%;
+    border: 2px solid black;
+}
+
+.downlod-app{
+color: #000;
+font-family: Gilroy;
+font-size: 60.726px;
+font-style: normal;
+font-weight: 800;
+line-height: 65.91px; /* 108.537% */
+}
+
+.text{
+    width: 550px;
+height: 120px;
+flex-shrink: 0;
+color: black;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 116.667% */
+}
+
+
+.adjust-btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.two-btn{
+display:flex;
+width: 260px;
+height: 66.773px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #000;
+justify-items: center;
+align-items: center;
+color: #FFF;
+font-family: Gilroy;
+font-size: 24.601px;
+font-style: normal;
+font-weight: 800;
+line-height: 0px; /* 0% */
+}
+
+.two-btn-next{
+    display:flex;
+width: 260px;
+height: 66.773px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #000;
+justify-items: center;
+align-items: center;
+color: #FFF;
+font-family: Gilroy;
+font-size: 24.601px;
+font-style: normal;
+font-weight: 800;
+line-height: 0px; /* 0% */
+}
+
